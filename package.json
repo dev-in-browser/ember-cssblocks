@@ -20,14 +20,13 @@
   "devDependencies": {
     "@ember/jquery": "^0.5.2",
     "@ember/optional-features": "^0.6.3",
+    "babel-eslint": "^8.0.0",
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.1.0",
     "ember-cli": "~3.4.0-beta.3",
     "ember-cli-app-version": "^3.2.0",
-    "ember-cli-babel": "^6.16.0",
     "ember-cli-dependency-checker": "^3.0.0",
     "ember-cli-eslint": "^4.2.3",
-    "ember-cli-htmlbars": "^3.0.0",
     "ember-cli-htmlbars-inline-precompile": "^1.0.3",
     "ember-cli-inject-live-reload": "^1.8.2",
     "ember-cli-qunit": "^4.3.2",
@@ -35,6 +34,7 @@
     "ember-cli-template-lint": "^1.0.0-beta.1",
     "ember-cli-uglify": "^2.1.0",
     "ember-data": "~3.4.0-beta.1",
+    "ember-decorators": "^3.1.2",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
@@ -47,5 +47,12 @@
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
+  },
+  "dependencies": {
+    "@css-blocks/ember-cli": "^0.20.0-beta.4",
+    "@ember-decorators/babel-transforms": "^2.0.0",
+    "ember-cli-babel": "^6.16.0",
+    "ember-cli-htmlbars": "^3.0.0",
+    "sparkles-component": "^1.1.0"
   }
 }

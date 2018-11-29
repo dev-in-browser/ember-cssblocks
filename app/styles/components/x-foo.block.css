@@ -1,0 +1,17 @@
+:scope {
+  color: red;
+}
+
+:scope .editing-panel {
+  display: none;
+}
+.editing-control {
+  opacity: 0.5;
+}
+
+:scope[state|is-editing] {
+  background: yellow;
+}
+:scope[state|isEditing] .editing-panel {
+  display: block;
+}

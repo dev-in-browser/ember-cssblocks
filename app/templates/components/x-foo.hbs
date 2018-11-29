@@ -1,0 +1,22 @@
+<p state:isEditing={{isEditing}}>
+  Hello, from {{fullName}}
+  <div class="editing-control">
+    <label for="editing-control">Edit</label>
+    <input
+      name="editing-control"
+      type="checkbox"
+      value={{isEditing}}
+      onchange={{action toggleIsEditing}}
+    >
+  </div>
+  <div class="editing-panel">
+    <input
+      value={{firstName}}
+      onInput={{action updateFirstName value="target.value"}}
+    >
+    <input
+      value={{lastName}}
+      onInput={{action updateLastName value="target.value"}}
+    >
+  </div>
+</p>
